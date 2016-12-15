@@ -819,4 +819,13 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 	color: #FFF;
 	border-bottom-left-radius: 0px;
 	border-top-left-radius: 0px;
+  border: none;
+  letter-spacing: .03em;
+  box-sizing: border-box;
+  height: 32px;
+  line-height: 32px;
+  display: inline-block;
+  margin: 0;
+  transition: all 0.23s ease-in-out 0s;
+  background-color: white;
 }
