@@ -743,7 +743,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 
 .main .subscribe {
 	font-size: 40px;
-	max-width: 713px;
+	max-width: 855px;
 	color: #000;
 }
 
@@ -757,18 +757,19 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 	display: inline-block;
 }
 
-.footer{
-	position: relative;
-	bottom: 20px;
-	right: 0px;
+.footer {
+	position: absolute;
+	bottom: 0;
 	width: 100%;
-	color: #AAAAAA;
-	z-index: 4;
-	text-align: right;
-	margin-top: 50px;
+	height: 160px;
 }
-.footer a{
-		color: #FFFFFF;
+
+.footer ul {
+	list-style-type: none;
+}
+
+.footer li {
+	float: right;
 }
 
 .navebar-home {
@@ -791,33 +792,32 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 	margin-top: 10px;
 }
 
-#mc_embed_signup input.email {
-  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
-  font-size: 15px;
-  border: 1px solid #000;
+#mc_embed_signup .email {
+	font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
+  border: none;
   color: #343434;
-  background-color: #fff;
+  background-color: #dce0e0;
   box-sizing: border-box;
-  height: 32px;
+  height: 50px;
   padding: 0px 0.4em;
   display: inline-block;
   margin: 0;
-  width: 350px;
-  vertical-align: top;
+  width: 517px;
 }
 
 .subscribe #mc_embed_signup .button {
 	padding: 0px 64px;
-	margin: 0px 0px 30px -10px;
+	margin: 0px 0px -10px -10px;
 	text-align: center;
 	color: #FFF;
 	border-bottom-left-radius: 0px;
 	border-top-left-radius: 0px;
   letter-spacing: .03em;
-  height: 32px;
-
+  height: 50px;
 }
