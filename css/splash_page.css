@@ -37,14 +37,14 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 		outline : 0;
 }
 
-/*           Font Smoothing      */
+/*   Font Smoothing      */
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple{
 		-moz-osx-font-smoothing: grayscale;
 		-webkit-font-smoothing: antialiased;
 }
 
-/*           Typography          */
+/*   Typography  */
 
 h1, .h1, h2, .h2, h3, .h3, {
 		font-weight: 500;
@@ -93,7 +93,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 		font-size: 60%;
 }
 
-/*           Animations              */
+/*   Animations      */
 .form-control, .input-group-addon{
 		-webkit-transition: all 300ms linear;
 		-moz-transition: all 300ms linear;
@@ -223,7 +223,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 
 
-/*           Buttons fill .btn-fill           */
+/*   Buttons fill .btn-fill   */
 .btn-fill{
 		color: #FFFFFF;
 		opacity: 1;
@@ -280,7 +280,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 		border-color: #EE2D20;
 }
 
-/*          End Buttons fill          */
+/*  End Buttons fill  */
 
 .btn-simple{
 		font-weight: 600;
@@ -307,7 +307,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 
 
-/*             Inputs               */
+/*     Inputs       */
 .form-control {
 		background-color: #FFFFFF;
 		border: 1px solid #E3E3E3;
@@ -349,7 +349,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 		padding: 10px 16px;
 }
 
-/*           Navigation Bar             */
+/*   Navigation Bar     */
 .navbar{
 	border: 0 none;
 	transition: all 0.4s;
@@ -669,8 +669,36 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 		}
 		.navbar-transparent .dropdown-menu .divider{
 				background-color: #434343;
-		}
-		
+		}		
+}
+@media (min-width:219px) {
+	#mc_embed_signup .email {
+		width: 100%;
+	}
+	.social {
+		display: none;
+	}
+	.subscribe #mc_embed_signup {
+    text-align: center;
+	}
+}
+@media (min-width:768px) {
+	#mc_embed_signup .email {
+		width: 100%;
+	}
+	.social {
+		display: none;
+	}
+}
+@media (min-width:991px) {
+	#mc_embed_signup .email {
+		width: 517px;
+	}
+}
+@media (min-width:1200px) {
+	#mc_embed_signup .email {
+		width: 517px;
+	}
 }
 .navbar-home {
 	padding-top: 31px;
@@ -682,10 +710,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .modal-backdrop.in {
 	opacity: 0.25;
-}
-
-.container {
-	width: 885px;
 }
 
 .cover{
@@ -765,7 +789,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 90px;
+	height: px;
 }
 
 .footer ul {
@@ -775,7 +799,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 .footer li {
 	float: right;
 	padding-left: 40px;
-	padding-right: 40px;
+	padding-right: 40px; 
 }
 
 .navebar-home {
@@ -814,7 +838,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   padding: 0px 0.4em;
   display: inline-block;
   margin: 0;
-  width: 517px;
 }
 
 .subscribe #mc_embed_signup .button {
