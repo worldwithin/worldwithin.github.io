@@ -678,7 +678,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .navbar-home a:hover, a:focus {
 	color: #000;
-	text-decoration: none;
+	text-decoration: none; 
 }
 .modal-backdrop.in {
 	opacity: 0.25;
