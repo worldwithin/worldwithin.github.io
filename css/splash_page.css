@@ -1,9 +1,3 @@
-/* 
-
-Made with love by Creative Tim (http://www.creative-tim.com)
-
-*/
-
 .form-control::-moz-placeholder{
 	 color: #000;
 	 opacity: 1;
@@ -671,38 +665,10 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 				background-color: #434343;
 		}		
 }
-@media (min-width:219px) {
-	#mc_embed_signup .email {
-		width: 100%;
-	}
-	.social {
-		display: none;
-	}
-	.subscribe #mc_embed_signup {
-    text-align: center;
-	}
-}
-@media (min-width:768px) {
-	#mc_embed_signup .email {
-		width: 100%;
-	}
-	.social {
-		display: none;
-	}
-}
-@media (min-width:991px) {
-	#mc_embed_signup .email {
-		width: 517px;
-	}
-}
-@media (min-width:1200px) {
-	#mc_embed_signup .email {
-		width: 517px;
-	}
-}
+
 .navbar-home {
-	padding-top: 31px;
-	padding-bottom: 88px;
+	padding-top: 30px;
+	padding-bottom: 65px;
 }
 .navbar-home a:hover, a:focus {
 	color: #000;
@@ -759,7 +725,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 	color: #000000;
 }
 
-.main span {
+.main .motto-tag {
 	font-size: 30px;
 	color: #ff0101;
 }
@@ -785,21 +751,14 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 	display: inline-block;
 }
 
-.footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: px;
-}
-
-.footer ul {
+.social {
+	font-size: 18px;
 	list-style-type: none;
 }
 
-.footer li {
+.social li {
 	float: right;
-	padding-left: 40px;
-	padding-right: 40px; 
+	padding: 25px 65px 10px 0px;
 }
 
 .navebar-home {
@@ -814,39 +773,68 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 	color: #000000;
 }
 
-.subscribe #mc_embed_signup {
-	float: left;
-}
-
 .subscribe #mc_embed_signup_scroll {
 	margin-top: 10px;
 }
 
 #mc_embed_signup .email {
+	width: 100%;
+	color: #343434;
+	background-color: #dce0e0;
 	font-family: Roboto;
   font-size: 18px;
   font-weight: 500;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-bottom-right-radius: 0px;
-  border-top-right-radius: 0px;
-  border: none;
-  color: #343434;
-  background-color: #dce0e0;
-  box-sizing: border-box;
   height: 50px;
-  padding: 0px 0.4em;
+  padding: 0em 1em;
   display: inline-block;
   margin: 0;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 3px;
 }
 
 .subscribe #mc_embed_signup .button {
+	width: 100%;
+	float: none;
 	padding: 0px 64px;
-	margin: 0px 0px -10px -10px;
 	text-align: center;
 	color: #FFF;
-	border-bottom-left-radius: 0px;
-	border-top-left-radius: 0px;
   letter-spacing: .03em;
   height: 50px;
+  border-radius: 3px;
+}
+
+/* Media Adjustments */
+@media (min-width: 24em) {
+
+}
+
+@media (min-width: 46.8em) {
+	.social li {
+		padding: 35px 65px 30px 0px;
+	}
+}
+
+@media (min-width: 50em) {
+	#mc_embed_signup .email {
+		width: 60%;
+	}
+	.subscribe #mc_embed_signup .button {
+		width: 40%;
+		margin: 9px -9px 0px -9px;
+		border-bottom-left-radius: 0px;
+		border-top-left-radius: 0px;
+	}
+	.social {
+    margin-right: -24px;
+	}
+	.social li {
+		padding: 35px 65px 30px 0px;
+	}
+}
+
+@media (min-width: 73em) {
+	.social li {
+		padding: 35px 65px 30px 0px;
+	}
 }
