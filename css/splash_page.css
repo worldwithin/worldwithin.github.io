@@ -674,6 +674,10 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 	color: #000;
 	text-decoration: none; 
 }
+.navbar-blog {
+	float: right;
+	margin-top: -45px;
+}
 .modal-backdrop.in {
 	opacity: 0.25;
 }
@@ -758,7 +762,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 
 .social li {
 	float: right;
-	padding: 25px 65px 10px 0px;
+	padding: 0.8em 1.9em 1.0em 0em;
 }
 
 .navebar-home {
@@ -811,7 +815,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 
 @media (min-width: 46.8em) {
 	.social li {
-		padding: 35px 65px 30px 0px;
+		padding: 1.8em 1.5em 1.0em 0em;
 	}
 }
 
@@ -825,16 +829,10 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 		border-bottom-left-radius: 0px;
 		border-top-left-radius: 0px;
 	}
-	.social {
-    margin-right: -24px;
-	}
 	.social li {
-		padding: 35px 65px 30px 0px;
+		padding: 1.8em 1.6em 1.0em 0em;
 	}
 }
 
 @media (min-width: 73em) {
-	.social li {
-		padding: 35px 65px 30px 0px;
-	}
 }
